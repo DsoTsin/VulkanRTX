@@ -1,0 +1,1 @@
+To compile the shaders go to the \Source\Shaders folder and launch compile.bat

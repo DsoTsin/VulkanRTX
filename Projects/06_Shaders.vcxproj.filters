@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Source\06_Shaders\06_Shaders.cpp" />
+    <ClCompile Include="..\Source\Common\Application.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Common\RaytracingApplication.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Common\Application.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\RaytracingApplication.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9bf819a9-6d5f-4144-8521-c07b309c7c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{17682c2f-0d2d-4ba5-9f96-db7f2a6f4189}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Source\Shaders\CompilationReadme.txt">
+      <Filter>Shaders</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Source\Shaders\rt_06_shaders.rchit">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Source\Shaders\rt_06_shaders.rmiss">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Source\Shaders\rt_06_shaders.rgen">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
